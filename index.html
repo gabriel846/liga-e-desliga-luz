@@ -3,11 +3,11 @@
 <body>
 <head>
     <style>
-        button { padding: 10px; margin: 60px; background-color: orange;}
+        button { padding: 10px; margin: 60px; background-color: orange;}/*tamanhos e medidas do projeto*/
     </style>
 </head>
 <script>
-function light(value) 
+function light(value) /*funçao light se light off nao funciona chamr light on*/
      {
      var pic;    
         if(value == 0) 
@@ -26,7 +26,7 @@ function light(value)
 <img id="bulb" src="light off.jpg">    
 
 </br>
-<button onclick="light(1)">turn ON</button>
-<button onclick="light(0)">turn OFF</button>    
+<button onclick="light(1)">turn ON</button>/*quando aciona on chamar imagem light on*/
+<button onclick="light(0)">turn OFF</button> /*quando aciona off chamr imagem light off*/
 </body>    
 </html>
